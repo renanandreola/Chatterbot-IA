@@ -13,7 +13,8 @@ trainer = ListTrainer(chatbot)
 def get_database():
  
    # Mongodb atlas url
-   CONNECTION_STRING = "mongodb+srv://renan:renan@contatosmobile-pjbzy.gcp.mongodb.net/receitas?retryWrites=true&w=majority"
+  #  CONNECTION_STRING = "mongodb+srv://renan:renan@contatosmobile-pjbzy.gcp.mongodb.net/receitas?retryWrites=true&w=majority"
+   CONNECTION_STRING = "mongodb+srv://admin:admin@iacluster.hg5m0vb.mongodb.net/?retryWrites=true&w=majority"
  
    # Cria a conexão mongo client
    client = MongoClient(CONNECTION_STRING)
